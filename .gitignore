@@ -1,17 +1,13 @@
 # Конкретные файлы и папки
 secret_config.xml
 credentials.json
-private/
-
-# Игнорировать все lab папки
-lab*/
-
-
 my_notes.txt
 git_push.txt
 shema.png
 index.php
 styles_gl.css
+private/
+lab*/
 
 # Файлы IDE
 .vs/
