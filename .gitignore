@@ -2,12 +2,10 @@
 secret_config.xml
 credentials.json
 private/
-l1/
-l2/
-l3/
-l4/
-l5/
-l6/
+
+# Игнорировать все lab папки
+lab*/
+
 
 my_notes.txt
 git_push.txt
