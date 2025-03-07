@@ -2,9 +2,16 @@
 secret_config.xml
 credentials.json
 private/
+# Игнорировать все лабораторные работы
+lab1/
+lab2/
+lab3/
+lab4/
+lab5/
+lab6/
+# и т.д. для всех лабораторных работ
 
-# Игнорировать все lab папки
-lab*/
+# и т.д. для всех лабораторных работ
 
 
 my_notes.txt
