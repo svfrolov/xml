@@ -1,0 +1,109 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e; /* Тёмный фон страницы */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* Добавляем фоновое изображение */
+    background-image: url('1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Контейнер калькулятора */
+div {
+    background-color: rgba(57, 62, 111, 0.85); /* Полупрозрачный тёмно-синий фон калькулятора */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px); /* Добавляем размытие для лучшей читаемости */
+}
+
+/* Экран результата */
+#result {
+    background-color: #3a3a3a;
+    border-radius: 5px;
+    padding: 15px; /* Увеличен размер окна вывода */
+    text-align: right;
+    font-size: 2.5rem; /* Увеличен размер шрифта */
+    color: #ff9f43; /* Изменен цвет шрифта на оранжевый */
+    margin-bottom: 20px;
+    font-family: 'Courier New', monospace; /* Изменен шрифт цифр */
+    font-weight: bold; /* Сделан шрифт более толстым */
+}
+
+/* Кнопки */
+button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Эффект при наведении */
+button:hover {
+    filter: brightness(120%);
+    background-color: #5352ed; /* Изменен цвет при наведении на синий */
+}
+
+/* Стили для кнопок */
+button.secondary {
+    background-color: #686de0; /* Яркий фиолетово-синий */
+    color: #fff;
+}
+
+button.primary {
+    background-color: #4834d4; /* Насыщенный фиолетовый */
+    color: #fff;
+}
+
+button.digit {
+    background-color: #535c68; /* Серо-синий */
+    color: #fff;
+}
+
+/* Стили для кнопки "луна" */
+button.luna {
+    background-color: #00b894; /* Используем цвет кнопки с изображения */
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+    padding: 0;
+}
+
+/* Эффект наведения */
+button:hover {
+    filter: brightness(120%);
+}
+
+/* Эффект нажатия */
+button:active {
+    filter: brightness(90%);
+}
+
+/* Эффект наведения для кнопки "луна" */
+button.luna:hover {
+    background-color: #78c357; /* Более светлый зеленый при наведении */
+    filter: brightness(120%);
+}
+
+/* Эффект нажатия для кнопки "луна" */
+button.luna:active {
+    filter: brightness(120%);
+    background-color: #5352ed; /* Изменен цвет при наведении на синий */
+}
